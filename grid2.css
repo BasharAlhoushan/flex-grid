@@ -1,0 +1,81 @@
+.grid{
+    
+    
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(300px,auto);
+     column-gap: 5px;
+     row-gap: 5px;
+  
+}
+
+.child{
+    background-color: #b2b5b4;
+}
+.a2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+  grid-gap: 10px;
+  
+
+}
+
+
+.a3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+  grid-gap: 10px 10px; 
+}
+
+.sup{
+    background-color: #525151;
+    margin: 10px;
+   
+
+}
+.a6{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    
+  grid-gap: 10px 10px;  
+}
+
+.sup-a6{
+    background-color: #525151; 
+    margin: 10px;
+}
+
+.a7{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+  grid-gap: 10px 10px;  
+}
+.sup-a7{
+    background-color: #525151; 
+    margin: 10px;
+}
+
+.a9{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+  grid-gap: 10px 10px; 
+}
+.sup-a9{
+    background-color: #525151; 
+    margin: 10px;
+}
+
+.a12{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+  grid-gap: 10px 10px; 
+}
+.sup-a12{
+    background-color: #525151; 
+    margin: 10px; 
+}
